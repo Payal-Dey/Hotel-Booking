@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hotel Booking</h1>
+        <div class="hotel">
+            <label for="hotel-name">Hotel Name:</label>
+            <select name="hotel" id="hotel-name">
+                <option value="">--Select Hotel--</option>
+                <option value="vivanta">Taj Vivanta</option>
+                <option value="sonar">ITC Sonar Bangla</option>
+                <option value="hyatt">Hyatt</option>
+                <option value="gallery">Gallery 67</option>
+            </select>
+        </div>
+        <div class="duration">
+            <div class="from">
+                <label for="from">From:</label>
+                <input type="date" name="from" id="from">
+            </div>
+            <div class="to">
+                <label for="to">To:</label>
+                <input type="date" name="to" id="to">
+            </div>
+        </div>
+        <div class="rooms">
+            <label for="rooms">Type of Room:</label>
+            <select name="room" id="room-type">
+                <option value="">--Select Room--</option>
+                <option value="ac">AC Room</option>
+                <option value="non-ac">Non-AC Room</option>
+                <option value="deluxe">Deluxe Room</option>
+                <option value="suite">Suite</option>
+            </select>
+        </div>
+        <div class="status">
+            <label for="status">Reservation Status:</label>
+            <span id="status"></span>
+        </div>
+        <button class="btn">Book Now</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
