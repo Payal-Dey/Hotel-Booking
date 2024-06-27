@@ -19,8 +19,8 @@ body{
     background-color: rgba(245, 245, 220, 0.5);
     padding: 2.5rem;
     border-radius: 1.5rem;
-    height: 70vh;
-    width: 60vh;
+    min-height: 70vh;
+    min-width: 60vh;
 }
 
 h1{
